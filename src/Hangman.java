@@ -154,7 +154,7 @@ public class Hangman {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in,"UTF_8");
+        Scanner scanner = new Scanner(System.in,"UTF-8");
         System.out.print("Хотите сыграть в висилицу? (да/нет): ");
         while (scanner.next().equalsIgnoreCase("да")) {
             game(scanner);
